@@ -59,6 +59,12 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+/* Regras específicas para tornar a imagem responsiva */
+.apresentacao img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Responsividade */
 @media (max-width: 1200px) {
     .apresentacao {
